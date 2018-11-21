@@ -22,6 +22,7 @@ spec:
     type: RollingUpdate
   template:
     metadata:
+     annotations:
 {{ toYaml .Values.podAnnotations | indent 8 }}
       creationTimestamp: null
       labels:

@@ -6,7 +6,7 @@ image:
 
 podAnnotations: {}
 
-storage:
+volume:
   size: 50Gi
   storageClassName: gp2
 
