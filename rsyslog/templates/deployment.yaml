@@ -24,9 +24,8 @@ spec:
     metadata:
      annotations:
 {{ toYaml .Values.podAnnotations | indent 8 }}
-      creationTimestamp: null
-      labels:
-        app: syslog
+     labels:
+       app: syslog
     spec:
       containers:
       - image: "{{ .Values.image.rsyslog.repository }}:{{ .Values.image.rsyslog.tag }}"
