@@ -50,8 +50,6 @@ existingConfigMap: ""
 
 ## Add extra input sources
 extraInputs: |-
-  Multiline On
-
 ## Add extra filters
 extraFilters: |-
 ## Add extra outputs
